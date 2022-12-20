@@ -6,5 +6,5 @@
 LINKS
 ------------------
 #Webpage link - https://dantesuarez.github.io/GUI_hw5/DanteSuarez_HW5/
-#Repo link - https://github.com/dantesuarez/GUI_hw4/
+#Repo link - https://github.com/dantesuarez/GUI_hw5/
 
