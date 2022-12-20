@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<!--
+    Name: Dante Suarez
+    Date: 12/20/2022
+    Email: dante_suarez@student.uml.edu
+    Assignment: GUI Programming HW5 - Scrabble Game
+    File: index.html
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", intial-scale="1">
+        <title>GUI Homework 5 - Scrabble Game</title>
+        <link href="./css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid" id="wrapper">
+            <div class="row">
+                <div class="col-xs-12 col-md-12" id="title">One Line Scrabble</div>
+
+                <div class="col-xs-12 col-md-12" id="scores">
+                    <div id="total_score">Total Score : </div>
+                    <div id="current_score">Current Score : </div>
+                    <div id="tiles_left">Tiles Left: </div>
+                </div>
+
+                <div class="col-xs-12 col-md-12" id="board"></div>
+
+                <div class="col-xs-12 col-md-12" id="rack_wrapper">
+                    <div id="tile_rack" class="ui-widget-header"></div>
+                </div>
+
+                <div class="col-xs-12 col-md-12" id="game_buttons">
+                    <form>
+                        <button type = "button" class="btn btn-outline-dark pl-4 pr-4 mb-2 mr-1" id = "next-btn">Submit Word</button>
+                        <button type = "button" class="btn btn-outline-dark pl-4 pr-4 mb-2" id = "new-btn">New Tiles</button>
+                        <button type = "button" class="btn btn-outline-dark pl-4 pr-4 mb-2" id = "reset-btn">Reset</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <script src="./js/scrabble.js"></script>
+    </body>
+</html>
